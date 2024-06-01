@@ -1,0 +1,17 @@
+package tp3puntp13;
+
+public class ManejoAscenssor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Ascensor consorcioCallePeron = new Ascensor(4, 150.0);
+Persona personasAscensor= new Persona(60);
+		System.out.println(consorcioCallePeron.getPisoActual());
+
+		consorcioCallePeron.subirUnPiso();
+		consorcioCallePeron.subirUnPiso();
+		consorcioCallePeron.subirUnPiso();
+		System.out.println(consorcioCallePeron.getPisoActual());
+	}
+
+}

@@ -1,0 +1,18 @@
+package tp2punto9;
+
+public class DiscoRigido {
+
+	String tamaño;
+
+	public DiscoRigido(String tamaño) {
+		this.tamaño = tamaño;
+	}
+	public String getTamaño() {
+		return tamaño;
+	}
+
+	public void setTamaño(String tamaño) {
+		this.tamaño = tamaño;
+	}
+	
+}

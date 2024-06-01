@@ -1,0 +1,12 @@
+package tp3punto6;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Cuenta cuentaCami= new Cuenta();
+		System.out.println("Su saldo es "+cuentaCami.getSaldo());
+		
+	}
+
+}

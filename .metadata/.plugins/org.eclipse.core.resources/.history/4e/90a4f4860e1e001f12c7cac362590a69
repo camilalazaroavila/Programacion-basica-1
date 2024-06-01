@@ -1,0 +1,16 @@
+package notas;
+
+import notas.dominio.Notas;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int pruebaNota=3;
+		Notas notas =new Notas(4);
+
+		System.out.println("La nota es: "+ notas.getValor());
+		
+		System.out.println(notas.estaAprobado());
+	}
+}

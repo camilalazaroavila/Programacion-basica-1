@@ -1,0 +1,14 @@
+package tp3punto5;
+
+import java.util.Scanner;
+
+public class MainPunto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Punto pruebaPunto= new Punto();
+Scanner teclado= new Scanner(0);
+teclado.nextInt();
+	}
+
+}

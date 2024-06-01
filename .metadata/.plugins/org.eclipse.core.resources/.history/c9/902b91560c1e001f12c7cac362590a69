@@ -1,0 +1,11 @@
+package notas.dominio;
+
+public class Notas {
+
+	int valor;
+
+	public Notas(int valor) {
+		this.valor = valor;
+	}
+
+}

@@ -1,0 +1,60 @@
+package tp3puntp13;
+
+public class Ascensor {
+	private int capacidadMaxima;
+	private double pesoMaximo;
+	private int pisoActual;
+	private boolean puertaAbierta;
+	private int pesoActual;
+	private int capacidadActual;
+
+	public Ascensor(int capacidadMaxima, double pesoMaximo) {
+		this.capacidadMaxima = capacidadMaxima;
+		this.pesoMaximo = pesoMaximo;
+
+	}
+
+	public int getPisoActual() {
+		return pisoActual;
+	}
+
+	public void setPisoActual(int pisoActual) {
+		this.pisoActual = pisoActual;
+	}
+
+	public int getPesoActual() {
+		return pesoActual;
+	}
+
+	public void setPesoActual(int pesoActual) {
+		this.pesoActual = pesoActual;
+	}
+
+	public void subirUnPiso() {
+		this.pisoActual++;
+
+	}
+
+	public void abrirPuerta() {
+		this.puertaAbierta = true;
+
+	}
+
+	public void cerrarPuerta() {
+		this.puertaAbierta = false;
+	}
+
+	public void subirPersona(int peso) {
+		if(puertaAbierta) {
+		this.pesoActual = pesoActual + peso;
+		this.capacidadActual++;
+		}	else{ 
+			throw new Exception("Superó la capacidad máxima");
+		}
+	
+
+	{
+	
+}
+	}
+

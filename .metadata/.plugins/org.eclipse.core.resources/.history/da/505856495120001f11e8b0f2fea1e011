@@ -1,0 +1,12 @@
+package tp3puntp13;
+
+public class Ascensor {
+	private int capacidadMaxima;
+	private double pesoMaximo;
+
+	public Ascensor(int capacidadMaxima, double pesoMaximo) {
+		this.capacidadMaxima = capacidadMaxima;
+		this.pesoMaximo = pesoMaximo;
+	}
+
+}

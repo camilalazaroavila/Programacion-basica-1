@@ -1,0 +1,10 @@
+package tp2punto9;
+
+public class ClaseDePrueba {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+DiscoRigido disco= new DiscoRigido();
+	}
+
+}

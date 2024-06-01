@@ -1,0 +1,32 @@
+package tp2punto9;
+
+ 
+public class DiscoRigido {
+
+	final static double dvd = 4.5;
+	final static double blueRay = 25;
+
+	double tamaño;
+
+	//contructor
+	// inyecci+ón de dependencias por constructor
+	// (o sea para funcionar necesita minimo un paramentro, en este caso)
+	public DiscoRigido( double tamaño) {
+		this.tamaño = tamaño;
+	}
+	
+	public DiscoRigido() {
+	}
+
+	//getter y setters
+	public String getTamaño() {
+		return tamaño;
+	}
+
+	// inyección de dependencias por setter
+	// o sea que el valor lo agregas en el momento que vos quieras
+	public void setTamaño(double tamaño) {
+		this.tamaño = tamaño;
+	}
+	
+}

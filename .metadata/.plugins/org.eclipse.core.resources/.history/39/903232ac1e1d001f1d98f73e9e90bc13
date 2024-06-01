@@ -1,0 +1,15 @@
+package coche;
+
+public class Snippet {
+	Desarollar un programa que contenga estas operaciones dentro de un menu:
+	1 cargar un elemento en el array
+	2 borrar un elemento del array
+	3 Modificar un elemento del array
+	4 Mostrar un elemento de una posición
+	5 mostrar todos los elemnts del array
+	6 vaciar el array
+	7 Mostrar el array al reves
+	8 Mostrar elementos en un rango
+	0 Terminar
+}
+

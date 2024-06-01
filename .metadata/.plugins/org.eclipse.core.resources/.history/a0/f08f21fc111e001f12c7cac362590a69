@@ -1,0 +1,10 @@
+package tp3punto6;
+
+public class Cuenta {
+	double saldo = 0;
+
+	public Cuenta() {
+		
+	}
+	
+}

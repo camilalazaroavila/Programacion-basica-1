@@ -1,0 +1,23 @@
+package tp2punto6;
+
+import java.util.Scanner;
+
+public class EjemplosDeCoche {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//pre
+		//post
+		//static
+		//static
+		
+		Scanner teclado= new Scanner(System.in);
+		//teclado.next.in
+		String mensaje =new String("Hola mundo");
+		
+		
+		
+		
+	}
+
+}

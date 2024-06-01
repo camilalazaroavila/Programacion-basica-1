@@ -1,0 +1,27 @@
+package notas.dominio;
+
+public class Notas {
+
+	int valor;
+	
+
+	public Notas(int valor) {
+		this.valor = valor;
+	}
+
+	public int getValor() {
+		return valor;
+	}
+
+	public void setValor(int valor) {
+		this.valor = valor;
+
+	}
+
+	public boolean estaAprobado() {
+		//que de verdadero si el valor es mas grande q 7
+		//
+		return valor > 7;
+
+	}
+}

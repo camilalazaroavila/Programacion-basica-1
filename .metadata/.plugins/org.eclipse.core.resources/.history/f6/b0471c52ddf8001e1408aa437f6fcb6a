@@ -1,0 +1,25 @@
+package ar.edu.unlam.primer.proyecto.interfaz;
+
+public class MiPrimerClase {
+
+	public static void main(String[] args) {
+
+//VARIABLES
+		byte numeroByte;
+		numeroByte = 1;
+ System.out.println("contenido de numeroByte: " +numeroByte ); 
+	System.out.println (numeroByte);
+ numeroByte = 3;
+
+ System.out.println("contenido de numeroByte: " +numeroByte );
+ System.out.println("contenido de numeroByte: " +numeroByte );
+ System.out.println("contenido de numeroByte: " +numeroByte );
+ 
+ short numeroShort = 2; // deficion e inicialización
+
+ int numeroInt = 5;
+
+ long numerolong = 6;
+	}
+
+}

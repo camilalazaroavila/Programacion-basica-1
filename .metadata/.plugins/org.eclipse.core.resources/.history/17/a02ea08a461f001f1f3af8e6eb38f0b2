@@ -1,0 +1,16 @@
+package pb1Ejmeplo;
+
+public class TestEjemploTP {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int clave = 1234;
+
+	}
+
+	private static boolean abrir(int clave) {
+		int claveActual = 1234;
+
+		return claveActual == clave;
+	}
+}

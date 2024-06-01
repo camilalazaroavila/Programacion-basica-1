@@ -1,0 +1,17 @@
+package testEjemplotp2;
+
+public class TestEjemplo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Hamburgueseria hamburgueseria= new Hamburgueseria ("Mi Hambburgueseria",100);
+	
+	}
+	private static void mostrarMenuPrincipal() {
+		for(int i=0; i <MenuPrincipal.values().length;i++) {
+			System.out.println(i+1)+MenuPrincipal.values()[1]);
+		}
+		}
+	}
+
+}

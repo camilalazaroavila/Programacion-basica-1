@@ -1,0 +1,5 @@
+package dominio.copy;
+
+public class Notas {
+
+}

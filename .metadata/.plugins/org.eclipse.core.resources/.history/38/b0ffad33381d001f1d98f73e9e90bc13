@@ -1,0 +1,50 @@
+package tp2punto6;
+
+import java.util.Scanner;
+
+import coche.vehiculo;
+
+public class EjemplosDeCoche {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//pre
+		//post
+		//static
+		//static
+		
+		Scanner teclado= new Scanner(System.in);
+		//teclado.next.in
+		String mensaje =new String("Hola mundo");
+		vehiculo coche= new vehiculo();
+		coche.asignarColor("Azul");
+		
+		
+		
+		coche.setVelocidadMaxima(100);
+		coche.aumentarVelocidad(5);
+		System.out.println(coche.getVelocidadMaxima());
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

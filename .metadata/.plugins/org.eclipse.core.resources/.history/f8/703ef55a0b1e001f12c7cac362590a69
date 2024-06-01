@@ -1,0 +1,10 @@
+package notas.dominio;
+
+public class Notas {
+
+	
+	
+	public Notas() {
+	}
+
+}

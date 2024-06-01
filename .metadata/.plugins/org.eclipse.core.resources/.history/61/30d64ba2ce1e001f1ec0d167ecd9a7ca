@@ -1,0 +1,35 @@
+package tp3punto5;
+
+public class Punto {
+	double x=0;
+	double y=0;
+
+	public Punto() {
+
+	}
+
+	public double getX() {
+		return x;
+	}
+
+	public void setX(double x) {
+		this.x = x;
+	}
+
+	public double getY() {
+		return y;
+	}
+
+	public void setY(double y) {
+		this.y = y;
+	}
+//consultar y cambiar coordenadas
+	//saber si el punto esta sobre el eje x
+	//"""" y
+	
+	public String estaSobreEjeX(double ejeX) {
+	if (ejeX=x)
+		return "esta en eje X";
+}else {
+	
+}

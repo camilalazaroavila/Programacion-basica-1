@@ -1,0 +1,5 @@
+package notas.dominio;
+
+public class Notas {
+
+}
